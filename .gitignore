@@ -1,0 +1,19 @@
+# Configuration files
+config.json
+
+# Data directory (generated results)
+data/
+
+# Log directory (generated logs)
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/

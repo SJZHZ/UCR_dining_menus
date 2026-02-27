@@ -1,0 +1,33 @@
+{
+  "notifications": {
+
+    "slack": {
+      "enabled": false,
+      "webhook_url": "https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK",
+      "channel": "#dining-updates",
+      "username": "UCR Dining Bot"
+    },
+
+    "telegram": {
+      "enabled": false,
+      "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+      "chat_id": "YOUR_CHAT_ID"
+    },
+
+    "lark": {
+      "enabled": false,
+      "webhook_url": "https://open.feishu.cn/open-apis/bot/v2/hook/YOUR_LARK_WEBHOOK"
+    }
+  },
+  "crawler": {
+    "base_url": "https://foodpro.ucr.edu/foodpro/search.aspx",
+    "search_delay": 2,
+    "max_retries": 3,
+    "timeout": 30
+  },
+  "storage": {
+    "data_dir": "data",
+    "save_raw_html": true,
+    "save_json": true
+  }
+}
